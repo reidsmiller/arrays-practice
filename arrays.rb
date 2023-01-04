@@ -19,3 +19,7 @@ committed.unshift(false)
 # If I were to call Index Position 2 on friends, it will return "Matt"
 puts friends[2]
 
+# insert will add elements into array at a specific index position noted by an integer and push all remaining elements up in their index positions
+array = ["a", "b", "c", "d", "e", "f","g"]
+array.insert(3, "bear", "lion", "tiger")
+# array will now look like this ["a", "b", "c", "bear", "lion", "tiger", "d", "e", "f","g"]
